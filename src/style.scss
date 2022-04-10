@@ -1,0 +1,63 @@
+.app{
+    width: 100%;
+    height: 100vh;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .top{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .content{
+        h1{
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;            
+            color: #293264;            
+        }
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;            
+            color: #293264;
+        }
+        button{
+            width: 200px;
+            height: 50px;
+            margin: 30px;
+            background: #4D5B9E;
+            border-radius: 15px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;            
+            color: #F5F7FB;
+            border: none;
+            &:hover{
+                color: #4D5B9E;
+                background-color: #F5F7FB;
+            }
+
+        }
+
+    }
+    .bottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+
+    }
+}
